@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easygram"
+version = "0.1"
+description = "Test"
+readme = "README.md"
+requires=python = ">=3.8"
+dependencies = ["requests"]
